@@ -25,7 +25,9 @@ body{
   .intro p{
     font-size: 20px;
     margin-bottom: 30px;
+    text-align: center;
   }
+
 
   .cloud1, .cloud2, .cloud3{
     max-width: 148px;
@@ -80,17 +82,30 @@ body{
   text-align: center;
 }
 
-.ab1 p{
-  text-align: justify;
+.skills img{
+  width: 25%;
+  
+}
 
-  width: 500px;
+.about{
+  max-width: 50%;
+  
+  margin: 70px auto 0px auto;
+  border: 1px solid black;
+}
+
+.about h3, p{
+  text-align: justify;
+  line-height: 2;
 }
 
 .img1{
-  width: 18%;
-  float:left;
-  margin-right: 30px;
- 
+float: left;
+margin-right: 30px;
 }
 
-
+.img2{
+  float: right;
+  margin-left: 30px;
+  width: 15%;
+  }
