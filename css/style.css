@@ -54,37 +54,43 @@ body{
   }
 
   /*************************************************/
-.info{
-  background-color: #f5eded;
+
+
+.perfil img{
+  margin-top: 40px;
+  width: 20%;
+  border-radius: 500px;
+
 }
-  .info img{
-    margin-top: 50px;
-    max-width: 300px;
-    height: 300px;
-    border-radius: 500px;
-  }
 
+.perfil h2{
+  margin-top: 10px;
+}
 
+.perfil p{
+  max-width: 500px;
+  margin: 30px auto;
+}
 
-  .info p{
-    width: 700px;
-    margin: 20px auto;
-   
-  }
- 
-  
+/*************************************************************/
+
+.info{
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
 
 .ab1 p{
   text-align: justify;
+
   width: 500px;
-  float: left;
-  margin-right: 50px;
-  
 }
-  .ab1 img{
-    border: 3px solid rgba(85, 82, 82, 0.212);
-    border-radius: 0px;
-    
-    
-  }
+
+.img1{
+  width: 18%;
+  float:left;
+  margin-right: 30px;
+ 
+}
+
 
