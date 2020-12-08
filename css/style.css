@@ -39,12 +39,13 @@ body{
 
 .cloud2{
   position: absolute;
-  left: 20px;
+  left: 50px;
+  bottom: 150px;
 }
 
 .cloud3{
-  position: absolute;
-  right: 100px;
+  position: relative;
+  left: 250px;
   bottom: 50px;
 
 }
@@ -82,30 +83,68 @@ body{
   text-align: center;
 }
 
-.skills img{
-  width: 25%;
-  
+.skills h2{
+  margin-top: 50px;
 }
 
 .about{
   max-width: 50%;
-  
-  margin: 70px auto 0px auto;
-  border: 1px solid black;
+  margin: 70px auto 100px auto;
+ 
 }
 
+
+
 .about h3, p{
+  max-width: 800px;
   text-align: justify;
   line-height: 2;
+  margin: 0 auto;
+  
 }
 
 .img1{
-float: left;
-margin-right: 30px;
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin-right: 50px;
+ 
 }
 
+
 .img2{
+  width: 200px;
+  height: 250px;
   float: right;
-  margin-left: 30px;
-  width: 15%;
-  }
+  margin-left: 50px;
+}
+
+
+
+/*********************************************************/
+
+
+.ninja{
+  display: flex;
+  margin: 20px 0px;
+  
+}
+
+.ninja img{
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+
+footer{
+  height: 80px;
+  background-color: black;
+  
+}
+
+footer p{
+  padding-top: 25px;
+  color: white;
+  text-align: center;
+}
