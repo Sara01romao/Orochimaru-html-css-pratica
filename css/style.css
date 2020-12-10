@@ -11,6 +11,7 @@ body{
 .intro{
   background-color: #000000e3;
   color: white;
+  align-items: center;
   
   
 }
@@ -37,24 +38,25 @@ body{
   margin-top: 25px;
 }
 
-.cloud2{
-  position: absolute;
-  left: 50px;
-  bottom: 150px;
-}
 
-.cloud3{
-  position: relative;
-  left: 250px;
-  bottom: 50px;
-
-}
   .folder{
     max-width: 598px;
     height: 357px;
   
+  
 
   }
+
+  .imgs{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  .imgs img{
+      margin: 0 auto;
+  }
+  
 
   /*************************************************/
 
